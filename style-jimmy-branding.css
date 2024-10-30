@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+Jimmy Branding Template Tag and Shortcode
+--------------------------------------------------------------*/
+
+.jimmy-branding-wrap {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.jimmy-branding-content {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	text-align: left;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	transition: height 0.5s linear;
+	overflow: hidden;
+}
+
+.jimmy-branding-opener {
+	position: absolute;
+	width: 0;
+	height: 0;
+	-webkit-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+	left: 50%;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	border-top: none;
+	border-right: 0.5em solid transparent;
+	border-left: 0.5em solid transparent;
+	border-bottom: none;
+	transition: border-top 1.0s ease-out,
+	border-bottom 1.0s ease-out;
+}

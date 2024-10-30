@@ -1,0 +1,71 @@
+/*--------------------------------------------------------------
+Jimmy Branding Admin Menu
+--------------------------------------------------------------*/
+
+#jimmy-branding-admin-nowon {
+	display: block;
+	margin: 0.5em;
+	padding: 0.5em;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	font-size: 2.0em;
+	color: #F66;
+	/* add unselectable="on" for IE */
+}
+
+.jimmy-branding-admin-form {
+	display: block;
+	margin: 1.0em;
+	padding: 0;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	/* add unselectable="on" for IE */
+}
+
+.jimmy-branding-admin-form-section {
+	margin: 1.0em 0;
+}
+
+.jimmy-branding-admin-form-section label:first-child {
+	display: inline-block;
+	text-align: right;
+	font-size: 1.0rem;
+	font-weight: 700;
+	width: 140px;
+}
+
+.jimmy-branding-admin-input {
+
+}
+
+#jimmy-branding-admin-preview {
+	overflow: scroll;
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+}
+
+
+#jimmy-branding-admin-preview-title {
+	text-align: center;
+	font-size: 2.0em;
+	color: #F66;
+	margin: 0.5em 0;
+}
+
+#jimmy-branding-admin-preview-content {
+	position: relative;
+	text-align: left;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
